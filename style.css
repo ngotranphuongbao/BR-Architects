@@ -164,6 +164,7 @@ h1, h3 {
     padding: 8px 16px;
     background-color: #f1f1f1; 
     text-align: center;
+    cursor: pointer; 
 }
 
 .architect__contact:hover {
@@ -189,8 +190,13 @@ input {
     margin: 16px 0px; 
     background-color: #000;
     color: #fff; 
+    cursor: pointer; 
 }
 
+#form #send:hover {
+    background-color: #ccc;
+    color: #000; 
+}
 /* map */
 #map {
     margin: 0px 16px;
@@ -198,6 +204,7 @@ input {
     background: url(https://www.w3schools.com/w3images/map.jpg) top center / cover no-repeat; 
 }
 
+/* footer */
 #footer {
     background-color: #000;
     padding: 16px 0px; 
